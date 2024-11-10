@@ -6,6 +6,7 @@ Compatible game versions:
 1.20.6  ☑
 
 Only for Spigot&Paper Server
+⚠️WARN⚠️ didn't support BunggedCord/Velocty and for Foila Server!!!
 This plugin can fix entitygenerate too fast problem and remove 
 piston work to get more low tps time,we will made **AntiEMP** in the future
 > this plugin can use plugmanX load or unload
