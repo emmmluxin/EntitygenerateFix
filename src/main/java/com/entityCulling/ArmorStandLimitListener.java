@@ -31,7 +31,7 @@ public class ArmorStandLimitListener implements Listener {
         if (armorStandCount >= 200) {
             event.setCancelled(true);
             Player player = event.getPlayer();
-            player.sendMessage("这个区块内已经达到盔甲架的放置数量上限，请检查粘液机器是否过于密集！");
+            player.sendMessage("under the top!!! too many armor!");
         } else {
             armorStandLimitMap.put(chunkKey, armorStandCount + 1);
         }
@@ -47,7 +47,6 @@ public class ArmorStandLimitListener implements Listener {
 
             if (armorStandCount >= 200) {
                 event.setCancelled(true);
-                // 这里可以添加日志或进一步处理
             } else {
                 armorStandLimitMap.put(chunkKey, armorStandCount + 1);
             }
