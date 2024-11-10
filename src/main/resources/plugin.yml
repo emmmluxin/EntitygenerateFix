@@ -1,0 +1,9 @@
+name: EntityCulling
+version: '1.7.3.1'
+main: com.entityCulling.EntityCulling
+api-version: 1.20
+prefix: 1
+load: STARTUP
+authors: [ HauseMasters ]
+description: "HauseMasters EntityCulling plugin heart"
+website: com
