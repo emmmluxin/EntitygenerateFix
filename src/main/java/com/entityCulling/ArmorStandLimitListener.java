@@ -31,7 +31,7 @@ public class ArmorStandLimitListener implements Listener {
         if (armorStandCount >= 200) {
             event.setCancelled(true);
             Player player = event.getPlayer();
-            player.sendMessage("under the top!!! too many armor!");
+            player.sendMessage("under the top! too many armor!");
         } else {
             armorStandLimitMap.put(chunkKey, armorStandCount + 1);
         }
